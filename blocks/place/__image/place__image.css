@@ -20,12 +20,6 @@
   }
 }
 
-@media screen and (min-width: 495px) and (max-width: 767px) {
-  .place__image {
-    padding-right: 24px;
-  }
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__image {
     width: 100%;
