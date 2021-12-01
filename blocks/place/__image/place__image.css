@@ -3,7 +3,7 @@
   max-height: 460px;
   margin-right: 40px;
 }
-  
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__image {
     max-width: 440px;
@@ -11,7 +11,7 @@
     margin-right: 32px;
   }
 }
-  
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__image {
     max-width: 340px;
@@ -19,10 +19,10 @@
     margin-right: 28px;
   }
 }
-  
+
 @media screen and (min-width: 495px) and (max-width: 767px) {
   .place__image {
-    padding-right: 16px;
+    padding-right: 24px;
   }
 }
 
@@ -33,4 +33,3 @@
     margin: auto;
   }
 }
-  

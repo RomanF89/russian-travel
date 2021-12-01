@@ -1,9 +1,25 @@
 .cover {
+  display: flex;
+  align-items: center;
   position: relative;
+  min-height: 740px;
   max-width: 1184px;
-  max-height: 740px;
-  color:#FFFFFF;
   margin: auto;
   z-index: 1;
+  background-image: url(../../../russian-travel/sprint-3-images/cover-trains.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-  
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .cover {
+    min-height: calc((100vw/100)*62.5);
+  }
+}
